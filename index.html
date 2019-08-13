@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>VH development</title>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta property="og:title" content="VH sites development. Beautiful design sites, CRM systems, full responsive sites">
+    <meta property="og:description" content="My name's Vladislav. I'm a creative web-developer from Ukraine, with 2 years of experience at commercial development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vh.biz.ua">
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="252" />
+    <meta property="og:image" content="https://vh.biz.ua/assets/img/og.jpg">
+    <!-- favi -->
+    <link rel="icon" href="./assets/img/favi/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favi/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favi/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favi/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/img/favi/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512"  href="./assets/img/favi/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favi/apple-touch-icon.png">
+    <link rel="manifest" href="./assets/img/favi/site.webmanifest">
+    <link rel="mask-icon" href="./assets/img/favi/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./assets/css/main.min.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Exo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <label for="page-1-r" class="nav-item">
+          Home
+        </label>
+        <label for="page-2-r" class="nav-item">
+          Portfolio
+        </label>
+        <label for="page-3-r" class="nav-item">
+          About
+        </label>
+        <label for="page-4-r" class="nav-item">
+          Galeria
+        </label>
+      </nav>
+    </header>
+    <div class="main-content">
+      <input id="page-1-r" type="radio" name="page" checked>
+      <input id="page-2-r" type="radio" name="page">
+      <input id="page-3-r" type="radio" name="page">
+      <input id="page-4-r" type="radio" name="page">
+      <div id="page-1" class="container">
+        <div class="data-container">
+          <div class="social">
+            <a href="https://github.com/VladislavHacker" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/vh_dev/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/vhdev" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.linkedin.com/in/vladislav-troyan-golovyan-548b51147/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:vladislavhacker@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+          <div class="logo-container">
+            <div class="logo">vh</div>
+            <div class="logo-2">development</div>
+          </div>
+          <div class="cite">Vladislav Hacker 2018 - 2019</div>
+         </div>
+      </div>
+      <div id="page-2" class="container">
+        <div class="data-container">
+          <div class="portfolio-slider">
+            <div onclick="prevSlide()" class="prev">
+              <div><</div>
+              <div><</div>
+              <div><</div>
+              <div><</div>
+              <div><</div>
+            </div>
+            <div onclick="nextSlide()" class="next">
+              <div>></div>
+              <div>></div>
+              <div>></div>
+              <div>></div>
+              <div>></div>
+            </div>
+            <div id="slides" class="slides">
+              <div class="slide showing">
+                <div class="slide-name">Be Fit</div>
+                <div class="images">
+                  <div class="img">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/1.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/2.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/3.jpg">
+                  </div>
+                </div>
+                <div class="button">
+                  <a href="https://budvforme.com.ua" target="_blank">visit website</a>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-name">Nibol</div>
+                <div class="images">
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/4.jpg">
+                  </div>
+                  <div class="img">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/5.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/6.jpg">
+                  </div>
+                </div>
+                <div class="button">
+                  <a href="https://nibol.co" target="_blank">visit website</a>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-name">vhGEO</div>
+                <div class="images">
+                  <div class="img">
+                      <img alt="Screenshot" class="lazy-loading" class="lazy-loading" data-src="./assets/img/projects/7.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" class="lazy-loading" data-src="./assets/img/projects/8.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" class="lazy-loading" data-src="./assets/img/projects/9.jpg">
+                  </div>
+                </div>
+                <div class="button">
+                  <a href="https://vh.biz.ua/projects/vhgeo" target="_blank">visit website</a>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slide-name">SketchHub</div>
+                <div class="images">
+                  <div class="img">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/10.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/11.jpg">
+                  </div>
+                  <div class="img secondary">
+                      <img alt="Screenshot" class="lazy-loading" data-src="./assets/img/projects/12.jpg">
+                  </div>
+                </div>
+                <div class="button">
+                  <a href="https://vh.biz.ua/sketchhub" target="_blank">visit website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+      </div>
+      <div id="page-3" class="container">
+        <div class="data-container">
+           <div class="about">
+             <h2>About me</h2>
+             <div class="about-data">
+               <div class="text">
+                 <p>
+                   My name's Vladislav, but you can call me Vlad. I'm a creative web-developer from Ukraine, with 2 years of experience at commercial development
+                 </p>
+                 <p>
+                   I use php, js, html5, css3, java, c++ and other tools on my projects.
+                 </p>
+                 <p>
+                   I prefer to get things done, and do not stop there. I started to get involved in programming at the age of 15.
+                 </p>
+               </div>
+               <div class="photo">
+                 <img alt="Portret" class="lazy-loading" data-src="./assets/img/portret.jpeg">
+               </div>
+             </div>
+           </div>
+         </div>
+      </div>
+      <div id="page-4" class="container">
+        <div class="data-container">
+          <div class="galeria">
+            <h2>Galeria</h2>
+            <div class="galeria-data">
+              <div class="photo">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/k.JPG">
+              </div>
+              <div class="photo">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/DSC_1713.JPG">
+              </div>
+              <div class="photo">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/DSC_1711.JPG">
+              </div>
+              <div class="photo">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/k.JPG">
+              </div>
+              <div class="photo only-desk">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/k.JPG">
+              </div>
+              <div class="photo only-desk">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/DSC_1645.JPG">
+              </div>
+              <div class="photo only-desk">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/k.JPG">
+              </div>
+              <div class="photo only-desk">
+                <img alt="Photo" class="lazy-loading" data-src="./assets/img/DSC_1711.JPG">
+              </div>
+            </div>
+          </div>
+          <div class="cite">Vladislav Hacker 2018 - 2019</div>
+         </div>
+      </div>
+    </div>
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/bg-planet.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/lazy.js"></script>
+  </body>
+</html>

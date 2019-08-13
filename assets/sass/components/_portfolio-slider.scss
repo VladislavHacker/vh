@@ -1,0 +1,123 @@
+.portfolio-slider{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  .next{
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    right: 0;
+    border-left: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    div{
+      color: white;
+      font-family: 'Exo', sans-serif;
+      font-size: 18px;
+    }
+  }
+  .next:hover,.prev:hover{
+    div{
+      text-shadow: 0 0 10px white;
+    }
+  }
+  .prev{
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    left: 0;
+    border-right: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    div{
+      color: white;
+      font-family: 'Exo', sans-serif;
+      font-size: 18px;
+    }
+  }
+  .slides{
+    width: calc(100% - 84px);
+    overflow: hidden;
+
+    .slide{
+      display: none;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      padding: 16px 0;
+      .slide-name{
+        font-size: 36px;
+        color: white;
+        font-family: 'Acme', sans-serif;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 32px;
+      }
+      .images{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background: rgba(0,0,0,0.6);
+        margin-bottom: 32px;
+        padding: 16px 0;
+        .secondary{
+          display: block;
+          @media screen{
+            @media (max-width: 620px){
+              display: none;
+            }
+          }
+        }
+        .img{
+          width: calc(33% - 16px);
+          @media screen{
+            @media (max-width: 620px){
+              width: calc(70% - 16px);
+            }
+          }
+          img{
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+      }
+      .button{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        a{
+          height: 24px;
+          padding: 8px 16px;
+          background: white;
+          border-radius: 5px;
+          color: black;
+          text-decoration: none;
+          font-family: 'Exo', sans-serif;
+          font-size: 18px;
+          transition: all 0.6s ease;
+        }
+        a:hover{
+          box-shadow: 0 0 8px 1px white;
+        }
+      }
+    }
+    .showing{
+      display: flex!important;
+    }
+  }
+}

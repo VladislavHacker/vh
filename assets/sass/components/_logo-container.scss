@@ -1,0 +1,22 @@
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  div{
+    display: block;
+    text-align: center;
+  }
+  .logo{
+  font-family: 'Acme', sans-serif;
+    color: white;
+    font-size: 72px;
+  }
+  .logo-2{
+    font-family: 'Acme', sans-serif;
+    color: white;
+    font-size: 36px;
+  }
+
+}

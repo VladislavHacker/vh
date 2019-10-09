@@ -1,4 +1,4 @@
-var slides = document.querySelectorAll('#slides .slide');
+var slides = document.querySelectorAll('#slider .slide');
 var currentSlide = 0;
 function nextSlide() {
   slides[currentSlide].className = 'slide';

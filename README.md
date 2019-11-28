@@ -1,3 +1,3 @@
 # vh
-oficial site
+official site
 https://vh.biz.ua
